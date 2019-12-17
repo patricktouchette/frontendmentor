@@ -1,0 +1,17 @@
+@import "./general.css";
+@import "./layout.css";
+@import "./background.css";
+@import "./button.css";
+@import "./responsive.css";
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+/* GLOBALS */
+:root {
+  --primary: hsl(257, 40%, 49%);
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --body-font-weight: 400;
+}

@@ -1,0 +1,94 @@
+.container {
+  max-width: 1440px;
+  padding: 3rem 4rem 2rem 4rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container .social {
+  margin-top: auto;
+}
+
+main {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* IMAGE SECTION */
+.image-section {
+  flex: 1.35;
+}
+
+.image-section img {
+  width: 100%;
+  display: block;
+}
+
+/* TEXT SECTION */
+.text-section {
+  flex: 1;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-section h1 {
+  padding-top: 3rem;
+  font-size: 2.5rem;
+}
+
+.text-section p {
+  font-size: 1.25rem;
+  padding-top: 1.3rem;
+  line-height: 1.5;
+}
+
+.text-section button {
+  margin-top: 2rem;
+  z-index: 10;
+}
+
+/* SOCIAL */
+.social {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social .icon {
+  border: 1px solid white;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 22px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  padding-top: 1rem;
+  color: silver;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,8 @@
+.main-bg {
+  position: absolute;
+  background: url("../images/bg-desktop.svg"), var(--primary);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+}

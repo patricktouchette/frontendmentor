@@ -1,0 +1,42 @@
+@media (max-width: 1240px) {
+  .main-bg {
+    background: url("../images/bg-mobile.svg"), var(--primary);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  header img {
+    width: 50%;
+  }
+
+  main {
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .text-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .text-section h1 {
+    font-size: 2em;
+  }
+
+  .text-section .btn {
+    width: min(300px, 100%);
+    margin: 2rem auto;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}
