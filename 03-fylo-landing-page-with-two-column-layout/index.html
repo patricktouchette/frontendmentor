@@ -13,6 +13,7 @@
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
     <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </head>
 
   <body>
@@ -32,7 +33,7 @@
     <section class="get-started">
       <img src="./images/illustration-1.svg" alt="illustration-1" />
 
-      <div>
+      <div class="container">
         <h1>All your files in one secure location, accessible anywhere.</h1>
         <p>
           Fylo stores your most important files in one secure location. Access
@@ -53,7 +54,7 @@
     <section class="testimonial">
       <img src="./images/illustration-2.svg" alt="illustration-2" />
 
-      <div>
+      <div class="container">
         <h1>Stay productive, wherever you are</h1>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
@@ -65,18 +66,24 @@
           for live collaboration. No email attachments required!
         </p>
 
-        <button class="btn btn-accent">See how Fylo works</button>
+        <a href="#" class="btn btn-accent"
+          >See how Fylo works <img src="./images/icon-arrow.svg"
+        /></a>
 
         <div class="card">
-          <p class="card-quote">
+          <img class="card-quote" src="./images/icon-quotes.svg" alt="quote" />
+          <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
             collaboration machine.
           </p>
 
           <div class="card-person">
-            <h3>Kyle Burton</h3>
-            <small>Founder & CEO, Huddle</small>
+            <img src="./images/avatar-testimonial.jpg" alt="avatar" />
+            <div>
+              <h5>Kyle Burton</h5>
+              <small>Founder & CEO, Huddle</small>
+            </div>
           </div>
         </div>
       </div>
@@ -84,7 +91,7 @@
 
     <!-- EARLY ACCESS -->
     <section class="early-access">
-      <div>
+      <div class="container">
         <h2>Get early access today</h2>
 
         <p>
@@ -148,10 +155,14 @@
           <li><a href="#">Privacy</a></li>
         </ul>
 
-        <ul>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy</a></li>
+        <ul class="social">
+          <a href="#" class="icon"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="#" class="icon"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#" class="icon"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
         </ul>
       </div>
 

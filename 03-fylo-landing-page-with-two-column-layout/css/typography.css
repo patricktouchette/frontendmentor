@@ -91,3 +91,16 @@ p {
 .early-access p {
   color: white;
 }
+
+.footer-links {
+  color: var(--neutral2);
+}
+
+.footer-links p,
+.footer-links a {
+  color: var(--neutral2);
+}
+
+footer .attribution {
+  color: var(--neutral2);
+}

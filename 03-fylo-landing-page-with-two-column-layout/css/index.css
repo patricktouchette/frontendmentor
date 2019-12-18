@@ -1,11 +1,13 @@
 @import "./general.css";
 @import "./typography.css";
 @import "./backgrounds.css";
+@import "./social.css";
 
 @import "./header.css";
 @import "./layout.css";
 @import "./footer.css";
 @import "./buttons.css";
 @import "./forms.css";
+@import "./card.css";
 
 @import "./responsive.css";

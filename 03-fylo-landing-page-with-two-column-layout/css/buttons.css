@@ -14,3 +14,17 @@
   opacity: 0.9;
   transition: all 0.4s ease;
 }
+
+.btn-accent {
+  color: var(--accent-moderate);
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--accent-moderate);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-accent img {
+  width: 1rem;
+  padding-top: 0.5rem;
+}

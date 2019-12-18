@@ -21,11 +21,13 @@ header {
   grid-auto-flow: dense;
 }
 
-.get-started > div {
+.get-started > div,
+.testimonial > div {
   grid-column-start: 1;
 }
 
-.get-started > img {
+.get-started > img,
+.testimonial > img {
   grid-column-start: 2;
 }
 

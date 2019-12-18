@@ -1,0 +1,102 @@
+@media (max-width: 1300px) {
+  .get-started,
+  .testimonial,
+  .early-access {
+    display: block;
+    text-align: center;
+  }
+
+  .get-started > img,
+  .testimonial > img,
+  .early-access > img {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .container > * {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .early-access form {
+    margin-left: 0;
+  }
+
+  .early-access form > * {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .card {
+    margin: 3rem auto;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 768px) {
+  header,
+  section,
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  header .logo {
+    width: 30%;
+    margin-bottom: 0;
+    min-width: 100px;
+  }
+
+  .testimonial-curve {
+    background: url("../images/bg-curve-mobile.svg") no-repeat center
+      center/cover;
+    height: 5rem;
+  }
+
+  .container > h1 {
+    font-size: 1.3rem;
+  }
+  .container > h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .container p {
+    font-size: 0.9rem;
+  }
+
+  .container form input,
+  .container form button,
+  .early-access form input,
+  .early-access form button {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .footer-links {
+    display: block;
+  }
+
+  .footer-links > * {
+    margin-bottom: 4rem;
+  }
+
+  .footer-links .social {
+    margin: 0;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-nav ul {
+    justify-content: flex-start;
+    text-align: left;
+  }
+}

@@ -19,15 +19,22 @@ footer a {
   flex-wrap: wrap;
 
   justify-content: space-between;
+  align-items: flex-start;
 }
 
-.footer-links {
-  color: var(--neutral2);
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 1rem;
+}
+
+.footer-links ul li a {
   text-decoration: none;
 }
 
 footer .attribution {
   padding-top: 4rem;
   text-align: center;
-  color: var(--neutral2);
 }
