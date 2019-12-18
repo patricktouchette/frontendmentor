@@ -7,45 +7,32 @@
 body {
   text-align: center;
   border-top: 6px var(--accent-bright) solid;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 header {
-  /* background: var(--primary2); */
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
 header h1 {
-  /* color: white; */
   color: var(--primary);
 }
 
 .blurb {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  padding-left: 2rem;
   box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.2);
-
-  justify-content: center;
-  align-items: center;
-  grid-gap: 4rem;
-  max-width: 900px;
-  margin: 4rem auto;
-  text-align: left;
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: justify;
 }
 
 .blurb div {
   border-left: 4px solid var(--accent-moderate);
-  padding-left: 0.5rem;
-}
-
-.blurb p:first-child {
-  color: var(--primary);
-}
-
-.blurb p:last-child {
-  margin: 0;
-  color: var(--neutral2);
+  padding-left: 0.75rem;
 }
 
 .blurb a {
@@ -58,8 +45,8 @@ header h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 3rem;
-  padding: 3rem;
   margin: 0 auto;
+  margin-bottom: 4rem;
   max-width: 1200px;
 }
 
@@ -97,4 +84,22 @@ img:hover {
 
 .btn:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  .blurb {
+    text-align: left;
+  }
+
+  #root {
+    grid-template-columns: 1fr;
+  }
+
+  #root .btn {
+    width: 90%;
+  }
 }
