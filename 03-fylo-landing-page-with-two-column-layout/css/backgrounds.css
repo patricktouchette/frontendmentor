@@ -1,0 +1,13 @@
+.testimonial {
+  background: var(--neutral);
+}
+
+.testimonial-curve {
+  background: url("../images/bg-curve-desktop.svg") no-repeat center
+    center/cover;
+  height: 10rem;
+}
+
+.early-access {
+  background: var(--primary2);
+}

@@ -1,0 +1,33 @@
+footer {
+  /* display: ; */
+  background: var(--primary);
+  color: white;
+  padding-bottom: 2rem;
+}
+
+footer .logo path {
+  fill: white;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+
+.footer-links {
+  color: var(--neutral2);
+  text-decoration: none;
+}
+
+footer .attribution {
+  padding-top: 4rem;
+  text-align: center;
+  color: var(--neutral2);
+}

@@ -1,0 +1,34 @@
+/* PADDING */
+header,
+section,
+footer {
+  padding: 5rem;
+}
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+/* SECTION GRIDS */
+.get-started,
+.testimonial,
+.early-access {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  grid-auto-flow: dense;
+}
+
+.get-started > div {
+  grid-column-start: 1;
+}
+
+.get-started > img {
+  grid-column-start: 2;
+}
+
+.early-access {
+  align-items: start;
+}
