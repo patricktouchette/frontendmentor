@@ -13,13 +13,20 @@
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
     <link rel="stylesheet" href="./css/index.css" />
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <body>
     <!-- HEADER -->
     <header>
-      <div class="logo"><img src="./images/logo.svg" /></div>
+      <div class="logo"><img src="./images/logo.svg" alt="fylo logo" /></div>
       <nav class="header-nav">
         <ul>
           <li><a href="#">Features</a></li>
@@ -42,7 +49,11 @@
         </p>
 
         <form class="get-started-form" action="POST">
-          <input type="text" placeholder="Enter your email" />
+          <input
+            type="text"
+            aria-label="Email Input"
+            placeholder="Enter your email"
+          />
           <button type="submit" class="btn btn-primary">Get Started</button>
         </form>
       </div>
@@ -67,11 +78,15 @@
         </p>
 
         <a href="#" class="btn btn-accent"
-          >See how Fylo works <img src="./images/icon-arrow.svg"
+          >See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow"
         /></a>
 
         <div class="card">
-          <img class="card-quote" src="./images/icon-quotes.svg" alt="quote" />
+          <img
+            class="card-quote"
+            src="./images/icon-quotes.svg"
+            alt="quote mark"
+          />
           <p>
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -102,7 +117,11 @@
       </div>
 
       <form class="early-access-form" action="POST">
-        <input type="text" placeholder="email@example.com" />
+        <input
+          type="text"
+          placeholder="email@example.com"
+          aria-label="email input"
+        />
         <button type="submit" class="btn btn-primary">
           Get Started For Free
         </button>
@@ -156,13 +175,21 @@
         </ul>
 
         <ul class="social">
-          <a href="#" class="icon"
-            ><ion-icon name="logo-facebook"></ion-icon
-          ></a>
-          <a href="#" class="icon"><ion-icon name="logo-twitter"></ion-icon></a>
-          <a href="#" class="icon"
-            ><ion-icon name="logo-instagram"></ion-icon
-          ></a>
+          <li>
+            <a href="#" class="icon"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="icon"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="icon"
+              ><ion-icon name="logo-instagram"></ion-icon
+            ></a>
+          </li>
         </ul>
       </div>
 
@@ -170,7 +197,10 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Patrick Touchette</a>.
+        >. Coded by
+        <a href="https://github.com/patricktouchette/frontendmentor"
+          >Patrick Touchette</a
+        >.
       </p>
     </footer>
   </body>
