@@ -1,0 +1,29 @@
+header {
+  background: url("../images/bg-hero-desktop.svg") center center/cover no-repeat,
+    var(--pale);
+  padding: var(--padding);
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-text .btn {
+  margin-top: 1rem;
+}
+
+.header-nav {
+  grid-column: 1 / span 2;
+}

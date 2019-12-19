@@ -1,0 +1,15 @@
+.cta {
+  display: grid;
+  justify-content: center;
+}
+
+.cta-container {
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  box-shadow: var(--box-shadow);
+  background: white;
+  text-align: center;
+  transform: translateY(35%);
+  border-radius: 10px;
+  z-index: 1;
+}

@@ -1,0 +1,25 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social .icon {
+  border: 1px solid white;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 22px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-sr-only {
+  display: none;
+}

@@ -1,0 +1,13 @@
+@import "./general.css";
+@import "./colors.css";
+@import "./typography.css";
+
+@import "./header.css";
+@import "./features.css";
+@import "./cta.css";
+@import "./footer.css";
+
+@import "./buttons.css";
+@import "./social.css";
+
+@import "./responsive.css";

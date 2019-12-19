@@ -1,0 +1,20 @@
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  background: white;
+  border: none;
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: var(--body-font);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--pale);
+  padding: 1rem 5rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
