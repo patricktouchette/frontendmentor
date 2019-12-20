@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(227, 224, 240);
+  display: grid;
+  grid-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.attribution {
+  text-align: center;
+}
