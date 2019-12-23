@@ -20,6 +20,9 @@ https://patricktouchette.com/frontendmentor/
 4. Single Price Grid Component  
    [Challenge 04 Solution](https://patricktouchette.com/frontendmentor/04-single-price-grid-component/)
 
+5. Four Card Feature Section
+   [Challenge 04 Solution](https://patricktouchette.com/frontendmentor/05-four-card-feature-section/)
+
 ## Credit
 
 Thank you to [frontendmentor](https://www.frontendmentor.io/) for the challenges!

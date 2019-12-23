@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+.card {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #a3a5ae;
+  margin-bottom: 2rem;
+}
+
+.card-img {
+  text-align: end;
+}
+
+.card-cyan {
+  border-top: 5px solid #45d3d3;
+}
+
+.card-red {
+  border-top: 5px solid #ea5353;
+}
+
+.card-orange {
+  border-top: 5px solid #fcaf4a;
+}
+
+.card-blue {
+  border-top: 5px solid #549ef2;
+}
+
+@media (max-width: 599px) {
+  .card {
+    padding: 1rem 2rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fafafa;
+  color: #4c4e61;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+header > * {
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header h1:first-child {
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+header h3 {
+  color: #a3a5ae;
+  font-weight: 200;
+}
+
+@media (max-width: 599px) {
+  header h3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 599px) {
+  header h1 {
+    font-size: 1.45rem;
+  }
+}
+
+.card-container {
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1200px;
+  grid-gap: 2rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .card-container {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #4c4e61;
+}
+
+@media (max-width: 599px) {
+  header,
+  footer {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
