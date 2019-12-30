@@ -1,0 +1,32 @@
+.social {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.social .icon {
+  border: 1px solid $pale-blue;
+  color: $blue;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 16px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background: $blue;
+    color: white;
+  }
+}
+
+.social-sr-only {
+  display: none;
+}

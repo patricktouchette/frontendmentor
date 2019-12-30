@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap");
+#design {
+  left: 0;
+  position: absolute;
+  width: 50%;
+  height: 1024px;
+  z-index: 2;
+  background-image: url("../design/desktop-design.jpg");
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+  #design {
+    background-image: url("../design/mobile-design.jpg");
+    height: 1624px;
+  }
+}
+
+#line {
+  position: absolute;
+  height: 1024px;
+  width: 4px;
+  background: orange;
+  z-index: 3;
+  left: 50%;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+@media (max-width: 1000px) {
+  #line {
+    height: 1624px;
+  }
+}
+
+header {
+  padding-top: 4.25rem;
+}
+
+header h1 {
+  padding-top: 2.2rem;
+  padding-left: -10rem;
+  color: #969696;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+header h1 span {
+  font-weight: 700;
+  color: #151f29;
+}
+
+header p {
+  padding-top: 0.85rem;
+}
+
+header form {
+  padding-top: 2rem;
+}
+
+@media (max-width: 1000px) {
+  header {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+form input {
+  border: 1px solid #969696;
+  width: 420px;
+  margin-right: 1rem;
+  padding: 0 2rem;
+  opacity: 0.5;
+}
+
+form input::-webkit-input-placeholder {
+  color: #969696;
+}
+
+form input:-ms-input-placeholder {
+  color: #969696;
+}
+
+form input::-ms-input-placeholder {
+  color: #969696;
+}
+
+form input::placeholder {
+  color: #969696;
+}
+
+form input:invalid {
+  border: 1px solid #ff5263;
+  color: #ff5263;
+}
+
+form input:focus {
+  border-radius: 100px;
+  outline: none;
+  border: 2px solid #4f7df3;
+}
+
+form button {
+  width: 200px;
+  border: none;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  color: white;
+  background: #4f7df3;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 4px 4px 0px rgba(62, 82, 163, 0.2);
+          box-shadow: 2px 4px 4px 0px rgba(62, 82, 163, 0.2);
+}
+
+form button:hover {
+  opacity: 0.7;
+}
+
+form input,
+form button {
+  line-height: 3.5;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+@media (max-width: 1000px) {
+  form input,
+  form button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.social .icon {
+  border: 1px solid #c2d3ff;
+  color: #4f7df3;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 16px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social .icon:hover {
+  background: #4f7df3;
+  color: white;
+}
+
+.social-sr-only {
+  display: none;
+}
+
+html {
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    margin: 0;
+    border: 0;
+    padding: 2rem;
+  }
+}
+
+.illustration {
+  margin-top: 4.25rem;
+  margin-bottom: 3.25rem;
+}
+
+.illustration img {
+  width: 100%;
+  max-width: 640px;
+}
+
+.copyright {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+  color: #969696;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #969696;
+  margin-bottom: 2rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

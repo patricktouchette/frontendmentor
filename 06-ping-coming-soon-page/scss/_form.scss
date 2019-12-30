@@ -1,0 +1,53 @@
+@import "responsive";
+
+form {
+  input {
+    border: 1px solid $gray;
+    width: 420px;
+    margin-right: 1rem;
+    padding: 0 2rem;
+    opacity: 0.5;
+  }
+
+  input::placeholder {
+    color: $gray;
+  }
+
+  input:invalid {
+    border: 1px solid $light-red;
+    color: $light-red;
+  }
+
+  input:focus {
+    border-radius: 100px;
+    outline: none;
+    border: 2px solid $blue;
+  }
+
+  button {
+    width: 200px;
+    border: none;
+    font-family: $font-family;
+    font-weight: 600;
+    color: white;
+    background: $blue;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px 0px hsla(228, 45%, 44%, 0.2);
+  }
+
+  button:hover {
+    opacity: 0.7;
+  }
+
+  input,
+  button {
+    line-height: 3.5;
+    border-radius: 100px;
+    font-size: 16px;
+
+    @include for-tablet {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+}
