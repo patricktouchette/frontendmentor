@@ -23,7 +23,7 @@ https://patricktouchette.com/frontendmentor/
 5. Four Card Feature Section  
    [Challenge 05 Solution](https://patricktouchette.com/frontendmentor/05-four-card-feature-section/)
 
-6. Ping Coming Soon Page
+6. Ping Coming Soon Page  
    [Challenge 06 Solution](https://patricktouchette.com/frontendmentor/06-ping-coming-soon-page/)
 
 ## Credit
