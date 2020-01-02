@@ -182,40 +182,6 @@
   color: #f6f6fe;
 }
 
-#design {
-  left: 0;
-  position: absolute;
-  width: 50%;
-  height: 850px;
-  z-index: 2;
-  background-image: url("../design/desktop-design-annually.jpg");
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 1000px) {
-  #design {
-    background-image: url("../design/mobile-design-annually.jpg");
-    height: 1000px;
-  }
-}
-
-#line {
-  position: absolute;
-  height: 850px;
-  width: 4px;
-  background: orange;
-  z-index: 3;
-  left: 50%;
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
-}
-
-@media (max-width: 1000px) {
-  #line {
-    height: 1000px;
-  }
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -242,7 +208,6 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  position: relative;
 }
 
 .wrapper h1 {
