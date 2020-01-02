@@ -1,0 +1,73 @@
+.pricing {
+  max-width: 1000px;
+  margin: 2rem auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+}
+
+.pricing {
+  .tier {
+    color: $dark;
+    background: white;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+
+    @media (max-width: 600px) {
+      border-radius: 5px;
+    }
+
+    .price {
+      font-size: 4rem;
+      font-weight: 700;
+      margin: 1rem 0;
+
+      @media (max-width: 600px) {
+        font-size: 2.5rem;
+      }
+    }
+
+    p:first-of-type {
+      border-top: 1px solid $light;
+    }
+
+    p {
+      border-bottom: 1px solid $light;
+      padding: 1rem;
+    }
+
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+
+  .tier:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .tier:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .highlight {
+    color: white;
+    background: $primary;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    border-radius: 5px;
+  }
+}

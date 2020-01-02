@@ -1,0 +1,40 @@
+.btn {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 4rem;
+  font-family: $fontFamily;
+  background: none;
+  color: $veryLight;
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in;
+
+  @media (max-width: 600px) {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+.btn-primary {
+  background: $primary;
+
+  &:hover {
+    background: none;
+    border: 1px solid $grayishBlue;
+    color: $grayishBlue;
+  }
+}
+
+.btn-secondary {
+  background: white;
+  color: $dark;
+
+  &:hover {
+    background: none;
+    border: 1px solid $veryLight;
+    color: $veryLight;
+  }
+}

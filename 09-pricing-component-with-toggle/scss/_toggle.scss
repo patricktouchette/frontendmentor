@@ -1,0 +1,41 @@
+.toggle {
+  margin: 2rem auto;
+  margin-bottom: 4rem;
+  max-width: 300px;
+  display: grid;
+  grid-gap: 1rem;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: $light;
+  font-size: 0.9rem;
+
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  &-box {
+    background: $primary;
+    width: 60px;
+    height: 30px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  &-box:hover {
+    background: $light;
+  }
+
+  &-circle {
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .toggle-monthly &-circle {
+    transform: translateX(30px);
+  }
+}
