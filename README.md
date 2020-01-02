@@ -32,6 +32,33 @@ https://patricktouchette.com/frontendmentor/
 8. Intro Component with Signup Form  
    [Challenge 08 Solution](https://patricktouchette.com/frontendmentor/08-intro-component-with-signup-form/)
 
+9. Pricing Component with Toggle  
+   [Challenge 08 Solution](https://patricktouchette.com/frontendmentor/09-pricing-component-with-toggle/)
+
+10. Project Tracking Intro Component  
+    [Challenge 09 Solution](https://patricktouchette.com/frontendmentor/10-project-tracking-intro-component/)
+
+11. Huddle Landing Page With Curved Sections  
+    [Challenge 11 Solution](https://patricktouchette.com/frontendmentor/11-huddle-landing-page-with-curved-sections/)
+
+12. Fylo Dark Theme Landing Page  
+    [Challenge 12 Solution](https://patricktouchette.com/frontendmentor/12-fylo-dark-theme-landing-page/)
+
+13. Clipboard Landing Page  
+    [Challenge 13 Solution](https://patricktouchette.com/frontendmentor/13-clipboard-landing-page/)
+
+14. Bookmark Landing Page  
+    [Challenge 14 Solution](https://patricktouchette.com/frontendmentor/14-bookmark-landing-page/)
+
+15. URL Shortening API  
+    [Challenge 15 Solution](https://patricktouchette.com/frontendmentor/15-url-shortening-api/)
+
+16. REST countries API With Color Theme Switcher  
+    [Challenge 16 Solution](https://patricktouchette.com/frontendmentor/16-rest-countries-api-with-color-theme-switcher/)
+
+17. Rock Paper Scissors  
+    [Challenge 17 Solution](https://patricktouchette.com/frontendmentor/17-rock-paper-scissors/)
+
 ## Credit
 
 Thank you to [frontendmentor](https://www.frontendmentor.io/) for the challenges!
