@@ -1,42 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro component with sign up form</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Intro component with sign up form</title>
 
-  Learn to code by watching others
+    <link rel="stylesheet" href="./scss/main.css" />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <!-- <div id="design"></div> -->
+      <!-- <div id="line"></div> -->
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+      <section class="blurb">
+        <h1>Learn to code by watching others</h1>
 
-  Try it free 7 days then $20/mo. thereafter
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+      <div class="signup">
+        <button class="btn btn-secondary">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </button>
 
-  Claim your free trial 
+        <form action="POST" class="signup-form">
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            aria-label="firstName"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            aria-label="lastName"
+            placeholder="Last Name"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            aria-label="email"
+            placeholder="Email Address"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            aria-label="password"
+            placeholder="Password"
+          />
 
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+          <div>
+            <button type="submit" class="btn btn-primary">
+              Claim your free trial
+            </button>
+
+            <p>
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/patricktouchette/frontendmentor"
+          >Patrick Touchette</a
+        >.
+      </p>
+    </footer>
+
+    <!-- <script src="./js/DesignSlider.js"></script> -->
+  </body>
 </html>

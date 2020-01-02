@@ -26,6 +26,12 @@ https://patricktouchette.com/frontendmentor/
 6. Ping Coming Soon Page  
    [Challenge 06 Solution](https://patricktouchette.com/frontendmentor/06-ping-coming-soon-page/)
 
+7. Base Apparel Coming Soon  
+   [Challenge 07 Solution](https://patricktouchette.com/frontendmentor/07-base-apparel-coming-soon/)
+
+8. Intro Component with Signup Form  
+   [Challenge 08 Solution](https://patricktouchette.com/frontendmentor/08-intro-component-with-signup-form/)
+
 ## Credit
 
 Thank you to [frontendmentor](https://www.frontendmentor.io/) for the challenges!

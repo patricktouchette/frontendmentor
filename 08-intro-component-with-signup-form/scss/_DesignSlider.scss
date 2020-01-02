@@ -1,0 +1,42 @@
+// design Slider Overlay
+$sliderPosition: 70%;
+$width: 1440px;
+$height: 800px;
+$mobileHeight: 1000px;
+
+#design {
+  left: 0;
+  position: absolute;
+  width: $sliderPosition;
+  height: $height;
+  z-index: 2;
+  background-image: url("../design/desktop-design.jpg");
+  background-repeat: no-repeat;
+
+  @media (max-width: 1000px) {
+    background-image: url("../design/mobile-design.jpg");
+    height: $mobileHeight;
+  }
+}
+
+#line {
+  position: absolute;
+  height: $height;
+  width: 4px;
+  background: orange;
+  z-index: 3;
+  left: $sliderPosition;
+  cursor: grabbing;
+
+  @media (max-width: 1000px) {
+    height: $mobileHeight;
+  }
+}
+
+// Usage:
+// Add this HTML inside your wrapper
+
+// <div class="wrapper" id="wrapper">
+//   <div id="design"></div>
+//   <div id="line"></div>
+// </div>

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+$fontFamily: "Poppins", sans-serif;
+
+@import "colors";
+@import "DesignSlider";
+@import "buttons";
+@import "form";
+
+$maxWidth: 1440px;
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $fontFamily;
+  background: url("../images/bg-intro-desktop.png") center center/cover, $red;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: $maxWidth;
+  position: relative;
+  min-height: 800px;
+  padding: 0 10rem;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+
+  @media (max-width: 1000px) {
+    display: block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0rem;
+  }
+  @media (max-width: 600px) {
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.blurb {
+  padding-top: 18.5rem;
+
+  @media (max-width: 1000px) {
+    padding-top: 6rem;
+  }
+
+  h1 {
+    font-size: 3.05rem;
+    line-height: 1.14;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 1.75rem;
+      font-weight: 700;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+  p {
+    margin-top: 1.75rem;
+
+    @media (max-width: 600px) {
+      text-align: center;
+    }
+  }
+}
+
+.signup {
+  padding-top: 7.5rem;
+
+  @media (max-width: 600px) {
+    padding-top: 4rem;
+  }
+}
+
+.attribution {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: white;
+}
