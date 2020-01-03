@@ -1,0 +1,58 @@
+// design Slider Overlay
+
+// Usage:
+// Include this script at the end of your HTML body
+// <script src="./js/DesignSlider.js"></script>
+// Change the widths and heights to be the size of your images
+
+$sliderPosition: 20%;
+$width: 1440px;
+$height: 800px;
+$mobileHeight: 800px;
+$designImg: url("../design/desktop-design.jpg");
+$mobileImg: url("../design/mobile-design.jpg");
+
+#wrapper {
+  margin: 0 auto;
+  max-width: $width;
+  position: relative;
+}
+
+#design {
+  left: 0;
+  position: absolute;
+  width: $sliderPosition;
+  height: $height;
+  z-index: 2;
+  background-image: $designImg;
+  background-repeat: no-repeat;
+
+  @media (max-width: 1000px) {
+    background-image: $mobileImg;
+    height: $mobileHeight;
+  }
+}
+
+#line {
+  position: absolute;
+  height: $height;
+  width: 4px;
+  background: orange;
+  z-index: 3;
+  left: $sliderPosition;
+  cursor: grabbing;
+
+  @media (max-width: 1000px) {
+    height: $mobileHeight;
+  }
+}
+
+// Prevent user selection while dragging
+.prevent-selection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

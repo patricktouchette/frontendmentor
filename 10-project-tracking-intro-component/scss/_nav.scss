@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+
+  a {
+    text-decoration: none;
+    color: $veryDarkBlue;
+  }
+
+  .logo {
+    justify-self: start;
+  }
+
+  ul {
+    justify-self: end;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    li {
+      margin-right: 2.5rem;
+    }
+
+    .dark {
+      color: $grayishBlue;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  // Mobile menu
+  .menu {
+    display: none;
+    cursor: pointer;
+
+    @media (max-width: 600px) {
+      display: block;
+      margin-right: 2rem;
+    }
+  }
+}

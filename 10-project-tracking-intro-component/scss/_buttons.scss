@@ -1,0 +1,15 @@
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background: $red;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

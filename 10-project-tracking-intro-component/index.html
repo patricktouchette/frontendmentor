@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Project tracking intro component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
-  Features
-  Pricing
-  Login
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+  </head>
+  <body>
+    <main class="wrapper" id="wrapper">
+      <header>
+        <nav class="nav">
+          <a href="#" class="logo"><img src="./images/logo.svg" alt="logo"/></a>
+          <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li class="dark">&#8226;</li>
+            <li><a href="#" class="dark">Login</a></li>
+          </ul>
+          <div class="menu" id="mobile-menu">MENU</div>
+        </nav>
+      </header>
 
-  New
-  Monograph Dashboard
+      <section class="content">
+        <h1><span>New</span> Monograph Dashboard</h1>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
+        <h2>Powerful insights into your team</h2>
+        <p class="text">Project planning and time tracking for agile teams</p>
 
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+        <p class="schedule">
+          <a href="#" class="btn">Schedule a demo</a> to see a preview
+        </p>
+      </section>
+
+      <div class="grey-block"></div>
+
+      <div class="hero">
+        <img src="./images/illustration-devices.svg" alt="devices" />
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/patricktouchette/frontendmentor"
+          >Patrick Touchette</a
+        >.
+      </p>
+    </footer>
+
+    <!-- <script src="./js/DesignSlider.js"></script> -->
+  </body>
 </html>
