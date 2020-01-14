@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  .logo {
+    justify-self: flex-start;
+  }
+
+  .btn {
+    justify-self: self-end;
+  }
+}
