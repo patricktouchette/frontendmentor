@@ -1,9 +1,10 @@
 .features {
   padding: var(--padding);
+}
+
+.features .container {
   display: grid;
   grid-gap: 3rem;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .feature-block {

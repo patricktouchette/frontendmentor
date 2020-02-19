@@ -11,9 +11,9 @@ header {
 }
 
 /* SECTION GRIDS */
-.get-started,
-.testimonial,
-.early-access {
+.get-started .wrapper,
+.testimonial .wrapper,
+.early-access .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;

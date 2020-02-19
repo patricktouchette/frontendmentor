@@ -41,23 +41,23 @@
 
     <script>
       const links = [
-        "./01-huddle-landing-page-with-single-introductory-section/",
-        "./02-huddle-landing-page-with-alternating-feature-blocks/",
-        "./03-fylo-landing-page-with-two-column-layout/",
-        "./04-single-price-grid-component/",
-        "./05-four-card-feature-section/",
-        "./06-ping-coming-soon-page/",
-        "./07-base-apparel-coming-soon/",
-        "./08-intro-component-with-signup-form/",
-        "./09-pricing-component-with-toggle/",
-        "./10-project-tracking-intro-component/",
-        "./11-huddle-landing-page-with-curved-sections/",
-        "./12-fylo-dark-theme-landing-page/",
-        "./13-clipboard-landing-page/",
-        "./14-bookmark-landing-page/",
-        "./15-url-shortening-api/",
-        "./16-rest-countries-api-with-color-theme-switcher/",
-        "./17-rock-paper-scissors/"
+        './01-huddle-landing-page-with-single-introductory-section/',
+        './02-huddle-landing-page-with-alternating-feature-blocks/',
+        './03-fylo-landing-page-with-two-column-layout/',
+        './04-single-price-grid-component/',
+        './05-four-card-feature-section/',
+        './06-ping-coming-soon-page/',
+        // './07-base-apparel-coming-soon/',
+        './08-intro-component-with-signup-form/',
+        './09-pricing-component-with-toggle/',
+        './10-project-tracking-intro-component/',
+        // './11-huddle-landing-page-with-curved-sections/',
+        // "./12-fylo-dark-theme-landing-page/",
+        // "./13-clipboard-landing-page/",
+        // "./14-bookmark-landing-page/",
+        // "./15-url-shortening-api/",
+        // "./16-rest-countries-api-with-color-theme-switcher/",
+        // "./17-rock-paper-scissors/"
       ];
 
       const cards = links
@@ -69,19 +69,19 @@
               </a>
               <h4>Challenge ${i + 1}</h4>
               <p>${link
-                .replace(/\//g, "")
-                .replace(/\./g, "")
-                .replace(/\d/g, "")
-                .replace(/-/g, " ")}
+                .replace(/\//g, '')
+                .replace(/\./g, '')
+                .replace(/\d/g, '')
+                .replace(/-/g, ' ')}
               </p>
               <a class="btn" href="${link}">Live Preview</a>
             </div>
           `
         )
-        .join("");
+        .join('');
 
-      const root = document.getElementById("root");
-      root.insertAdjacentHTML("beforeend", cards);
+      const root = document.getElementById('root');
+      root.insertAdjacentHTML('beforeend', cards);
     </script>
   </body>
 </html>

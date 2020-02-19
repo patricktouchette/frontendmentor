@@ -1,9 +1,11 @@
 header {
-  background: url("../images/bg-hero-desktop.svg") center center/cover no-repeat,
+  background: url('../images/bg-hero-desktop.svg') center center/cover no-repeat,
     var(--pale);
   padding: var(--padding);
   text-align: center;
+}
 
+header .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;

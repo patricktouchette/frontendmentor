@@ -1,7 +1,7 @@
 @media (max-width: 1300px) {
-  .get-started,
-  .testimonial,
-  .early-access {
+  .get-started .wrapper,
+  .testimonial .wrapper,
+  .early-access .wrapper {
     display: block;
     text-align: center;
   }
@@ -55,7 +55,7 @@
   }
 
   .testimonial-curve {
-    background: url("../images/bg-curve-mobile.svg") no-repeat center
+    background: url('../images/bg-curve-mobile.svg') no-repeat center
       center/cover;
     height: 5rem;
   }
