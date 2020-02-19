@@ -1,0 +1,28 @@
+.hero {
+  margin-top: 14rem;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2.7rem;
+  }
+
+  .btn {
+    margin-bottom: 7rem;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 1025px;
+    margin: 0 auto;
+  }
+}

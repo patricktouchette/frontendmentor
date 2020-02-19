@@ -33,8 +33,9 @@ nav {
 .wrapper {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 5rem;
   position: relative;
-  // max-width: 1440px;
+  max-width: 1920px;
   // border: 1px solid black;
 
   display: grid;
@@ -76,6 +77,10 @@ header {
 
   img {
     width: 100%;
+
+    @media (min-width: 1920px) {
+      display: none;
+    }
   }
 
   @media (max-width: 1140px) {
@@ -83,6 +88,13 @@ header {
     grid-row: 2;
     justify-self: end;
     top: 4rem;
+  }
+
+  @media (min-width: 1920px) {
+    background: url("../images/illustration-devices-full.svg") center
+      center/cover no-repeat;
+    width: 960px;
+    height: 464px;
   }
 }
 

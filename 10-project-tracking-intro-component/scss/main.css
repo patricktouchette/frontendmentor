@@ -195,7 +195,9 @@ nav {
 .wrapper {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 5rem;
   position: relative;
+  max-width: 1920px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -245,6 +247,12 @@ header {
   width: 100%;
 }
 
+@media (min-width: 1920px) {
+  .hero img {
+    display: none;
+  }
+}
+
 @media (max-width: 1140px) {
   .hero {
     position: unset;
@@ -253,6 +261,14 @@ header {
     -ms-grid-column-align: end;
         justify-self: end;
     top: 4rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .hero {
+    background: url("../images/illustration-devices-full.svg") center center/cover no-repeat;
+    width: 960px;
+    height: 464px;
   }
 }
 

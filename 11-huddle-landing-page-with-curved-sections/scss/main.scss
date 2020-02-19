@@ -1,0 +1,136 @@
+@import 'variables';
+@import 'typography';
+@import 'buttons';
+@import 'DesignSlider';
+
+@import 'nav';
+@import 'hero';
+@import 'stats';
+@import 'features';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$padding: 5rem;
+$bgOffset: 1000px;
+
+.wrapper {
+  border-top: none;
+  padding: 0 $padding;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 $padding;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+// LAYOUT
+header {
+  nav {
+    padding-top: 5rem;
+  }
+}
+
+// READ TO BUILD
+.ready {
+  text-align: center;
+  margin-top: 6.5rem;
+  margin-bottom: 12rem;
+
+  h2 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+// FOOTER
+.footer {
+  background: $dark;
+  color: white;
+  padding: 5rem 10rem;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.contact {
+  flex: 1;
+  max-width: 300px;
+
+  & > img {
+    margin-bottom: 2rem;
+  }
+
+  & > p {
+    margin-bottom: 2rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    p {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.newsletter {
+  flex: 1;
+  max-width: 600px;
+
+  p {
+    max-width: 350px;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: $fontBody;
+    text-transform: uppercase;
+  }
+
+  form {
+    margin-top: 2rem;
+  }
+
+  input {
+    font-size: 1.3rem;
+    margin-right: 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 0;
+  }
+}
+
+.bg-footer-top {
+  background: url(../images/bg-footer-top-desktop.svg) center center/cover
+    no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+// ATTRIBUTION
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background: $dark;
+  color: white;
+  padding-bottom: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
